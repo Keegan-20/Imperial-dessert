@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto');
+
+body{
+	font-family:Arial;
+}
+
+a {
+	color:rgba(201,34,35,1);
+}
+
+a:hover {
+	color:rgb(254,213,19);
+	text-decoration:none;
+}
+
+.title{
+	text-align:center;
+	font-size:large;
+	font-family:chiller;
+	color:#FF3399;
+}
+.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus{
+border-bottom: 3px solid red;
+}
+.icon-bar {
+	width: 100%;
+	background-color:black;
+	overflow: auto;
+}
+/* .topnav.facebook{
+
+  color: #5FFBF1;
+
+}
+.topnav.facebook:hover{
+  background:white;
+  color: blue;
+} */
+
+/* .topnav.whatsapp {
+ 
+} */
+/* .topnav.whatsapp:hover {
+  background:white;
+  color: #2ACE22;
+} */
+.icon-bar a {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 36px;
+}
+
+.icon-bar a:hover {
+	background-color: #1a1a1a;
+}
+
+.material-icons{
+	vertical-align:-12%
+}
+
+	/* .topnav .fa{
+		font-size:18px;
+	} */
+
+/* 
+.topnav .fa{
+	color:#5FFBF1;
+}
+
+.topnav .fa:hover{  
+	color:rgba(201,34,35,1);
+} */
+
+.topnav{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:30px;
+	background:rgba(255,255,255,1);
+	z-index:999;
+	
+} 
+   
+.topnav ul{
+	list-style-type:none;
+	
+}
+
+.topnav ul li{
+	display:inline;
+	color:rgba(0,0,0,1);
+	font-size:1.6em;
+	padding:5px 10px;	
+    
+	letter-spacing: -0.2em;
+}
+
+.topnav ul li a{
+	color:#1a1a1a;
+	font-size:0.8em;
+  
+} 
+
+.topnav ul li a:hover{
+	color:rgba(201,34,35,1);
+}
+
+
+.navbar {
+	margin-bottom:0;
+	border-radius:0;
+	top:30px;
+}
+
+.navbar-brand{
+	padding: 2px 0px 0px 0px;
+	margin:0px;
+	width:100px;
+}
+
+.navbar .navbar-nav li a{
+	font-size:1em;
+	color:rgb(254,213,19);
+	text-transform:uppercase;
+}
+
+.navbar-default{
+	background:rgba(201,34,35,1);
+	border-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color:rgba(255,255,255,1);
+}
+
+.navbar-default .navbar-toggle{
+	border-color:rgba(0,0,0,0);
+	border-radius:0;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background-color:rgba(0,0,0,1);
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:rgba(255,255,255,1);
+}
+
+/* .navbar-default .navbar-toggle .icon-bar:hover{ */
+
+
+.navbar-default .navbar-collapse{
+	border-color:rgba(0,0,0,0);
+}
+
+.navbar-nav{
+
+	background-color:(201,34,35,1);
+}
+.logo 
+	{
+	display:inline-block;
+	vertical-align:top;
+	width:100%;
+	margin-right:10px;
+}
+
+.container {
+	position: relative;
+}
+
+.header{
+	position:center;
+	font-family:Arial;
+	color:white;
+}	
+	
+.jumbotron{
+	background:rgba(201,34,35,1);
+	border-color:transparent;
+	color:rgb(254,213,19);
+}
+
+.slider{
+	margin-top:50px;
+}
+
+.header1 {
+	padding:80px 0 80px 0;
+	background-color:white;
+	position:relative;
+}
+
+.services_box .imag1 img{
+	height:180px;
+	width:180px;
+	margin:0 auto;
+	display:block;
+}
+
+.services_box h3, .services_box p{
+	color:rgba(0,0,0,1);
+}
+
+.img {
+	opacity: 0.8;
+	filter: alpha(opacity=50); 
+}
+
+.subquotes {
+	padding:60px 0 60px ;
+	background:rgba(201,34,35,1);
+	position:relative;
+}
+
+.subquotes  h3{
+	color:rgb(254,213,19);
+	font-size:40px;
+}
+
+.flavours{
+	padding:20px 0 90px 0;
+	background:rgba(254,213,19,1);
+	position:relative;
+}
+
+.flavours h2{
+	padding:30px 0;
+	text-align:center;
+	color:rgba(0,0,0,1);
+}
+
+.flavours .thumbnail{
+	padding:0px 0; 
+	border:0px solid rgba(0,0,0,0);
+}
+
+.flavours .thumbnail img{
+	padding:0px 0; 
+	margin:0px 0; 
+	width:100%;
+	border-radius:2px 2px 0px 0px;
+}
+
+.flavours .thumbnail .caption{
+	padding:10px;  
+	text-align:center;
+}
+
+.flavours .thumbnail .caption h4{
+	text-transform:uppercase;
+	padding:5px 0 5px 0; 
+	margin:0px 0; 
+}
+
+.owl{
+	padding:50px 0 50px 0;
+}
+
+.owl h2{
+	padding:20px;
+	text-align:center;
+	text-transform:uppercase;
+	color:rgba(0,0,0,1);
+}
+.owl h4{
+	padding:10px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.image {
+	background:url(../images/insta1.jpg);
+	background-attachment:cover;
+	background-position:cover;
+	background-size:cover;
+	padding:0px 0;
+	position:relative;
+	height:300px;
+}
+
+.image h3{
+	padding:10px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.image p{
+	padding:10px;
+	text-align:center;
+font-size:16px;
+}
+
+.testimonial {
+	padding:40px 0 40px 0;
+	background:rgba(201,34,35,1);
+	position:relative;
+}
+
+.testimonial h2{
+	text-align:center;
+	color:rgb(254,213,19);
+	
+}
+
+.testimonial p{
+	color:rgb(255,255,255);
+	font-size:0.6em;
+	text-align:left;
+	padding:10px 0;
+}
+
+.testimonial .pull-right{
+	font-style:italic;
+}
+
+
+.info{
+	position:relative;
+}
+
+.info h5{
+	text-transform:uppercase;
+}
+
+.box1{
+	position:absolute;
+	top:0;
+	left:0;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	width:100%;
+	z-index:99;
+	background:rgba(255,255,255,0.8);
+	height:300px;
+}
+
+.box2{
+	position:absolute;
+	top:0;
+	left:0;
+	padding-left:50px;
+	padding-top:20px;
+	width:100%;
+	z-index:99;
+	background:rgba(255,255,255,0.8);
+	height:300px;
+}
+
+.maps{
+	position:relative;
+}
+
+.headimg{
+	float:left;
+}
+
+.overlayer{
+	position:absolute;
+	background:rgba(0,0,0,0.5);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.overlayer2{
+	position:absolute;
+	background:rgba(255,0,0,0.5);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.heading{
+	position:center;
+	color:rgba(200,200,200,1);
+}
+
+
+@media only screen and (max-width: 600px) {
+.logo{
+	display:inline-block;
+	vertical-align:top;
+	width:70%;
+	margin-right:10px;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+	background-color:rgba(254,213,90,1);
+}
+
+.navbar .navbar-nav li a{
+	font-size:1em;
+	color:white;
+}
+
+.navbar .navbar-nav li a:hover{
+	font-size:1em;
+	color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	background-color:rgba(0,0,0,1);
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color:rgba(255,255,255,1)
+}
+
+.navbar-default{
+	background:rgba(201,34,35,1);
+	border-color:default;
+}
+
+.image {
+	background:url(../images/insta1.jpg);
+	background-attachment:cover;
+	background-position:cover;
+	background-size:cover;
+	padding:0px 0;
+	position:relative;
+	height:auto;
+}
+
+.box1{
+	position:relative;
+	top:0;
+	left:0;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+	width:100%;
+	z-index:99;
+	background:rgba(255,255,255,0.8);
+	height:auto;
+}
+
+.box2{
+	position:relative;
+	top:0;
+	left:0;
+	padding-left:50px;
+	padding-top:20px;
+	width:100%;
+	z-index:999;
+	background:rgba(255,255,255,0.8);
+	height:300px;
+}
+
+}
+
