@@ -20,30 +20,19 @@ a:hover {
 	color:#FF3399;
 }
 .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus{
-border-bottom: 3px solid red;
+border-bottom: 3px solid rgb(254,213,19);
 }
 .icon-bar {
 	width: 100%;
 	background-color:black;
 	overflow: auto;
 }
-/* .topnav.facebook{
 
-  color: #5FFBF1;
-
-}
 .topnav.facebook:hover{
   background:white;
   color: blue;
-} */
+} 
 
-/* .topnav.whatsapp {
- 
-} */
-/* .topnav.whatsapp:hover {
-  background:white;
-  color: #2ACE22;
-} */
 .icon-bar a {
 	float: left;
 	width: 20%;
@@ -61,19 +50,6 @@ border-bottom: 3px solid red;
 .material-icons{
 	vertical-align:-12%
 }
-
-	/* .topnav .fa{
-		font-size:18px;
-	} */
-
-/* 
-.topnav .fa{
-	color:#5FFBF1;
-}
-
-.topnav .fa:hover{  
-	color:rgba(201,34,35,1);
-} */
 
 .topnav{
 	position:fixed;
@@ -105,8 +81,26 @@ border-bottom: 3px solid red;
   
 } 
 
-.topnav ul li a:hover{
+/* .topnav ul li a:hover{
 	color:rgba(201,34,35,1);
+} */
+
+.topnav .fa-facebook:hover {
+	color: blue;
+	
+}
+
+.topnav .fa-whatsapp:hover {
+	color: #2ACE22;
+}
+
+.topnav .fa-instagram:hover {
+	color:#FF3399;
+	 
+}
+
+.topnav .fa-phone:hover {
+	color:rgb(254,213,19); 
 }
 
 
@@ -404,9 +398,8 @@ font-size:16px;
 	font-size:1em;
 	color:white;
 }
-
-.navbar-default .navbar-nav > li > a:hover{
-	background-color:rgba(0,0,0,1);
+.navbar .navbar-nav li a:hover{
+	width:30%;
 }
 
 .navbar-default .navbar-toggle:focus {
