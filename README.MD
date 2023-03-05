@@ -8,12 +8,12 @@ Order online and get your dessert delivered right to your doorstep.
 Learn more about our company and our commitment to quality and customer satisfaction.
 
 ### Screenshots
-![Home Page](/images/preview%201.PNG )
+     ![Home Page](/images/preview%201.PNG)
 
-![Flavors Page](/images/preview%202.PNG)
+     ![Flavors Page](/images/preview%202.PNG)
 
 ### Getting Started
-To get started with our website, simply visit imperial-desserts.vercel.app and start browsing through our delicious flavors.
+To get started with our website, simply visit [imperial-dessert](imperial-desserts.vercel.app) and start browsing through our delicious flavors.
 
 ### Contributing
 Contributions are welcome from the community! If you'd like to contribute to our website, please submit a pull request with your changes.
